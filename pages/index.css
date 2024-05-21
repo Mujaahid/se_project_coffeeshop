@@ -111,7 +111,7 @@ a {
     z-index: 0;
 }
 
-.header__footer {
+.footer {
     margin-top: auto;
     display: flex;
     align-items: end;
@@ -176,7 +176,7 @@ a {
     width: 100%;
     height: 100%;
 }
-.videos__text {
+.videos__textf {
     display: flex;
     justify-content: space-between;
     padding-top: 24px;
