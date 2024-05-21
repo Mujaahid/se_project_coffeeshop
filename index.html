@@ -27,7 +27,7 @@
     <div class="page">
         <header class="header">
             <nav class="nav">
-                <img class="logo" src="images/logo_coffeeshop_dark.svg" alt="logo">
+                <img class="nav__logo" src="images/logo_coffeeshop_dark.svg" alt="logo">
                 <ul>
                     <li class="nav__link"><a href="#recipes">Recipes</a></li>
                     <li class="nav__link"><a href="#menu">Menu</a></li>
@@ -35,11 +35,11 @@
                     <li class="nav__link"><a href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
-            <main>
-                <h1 class="title"><span class="span-accent">Specialty coffee</span> in the Triple Peaks Library</h1>
-                <span class="description">Welcome to our study zone! We've got the coffee to energize you<br> and the cozy vibes to help you get creative.</span>
+            <section class="header__wrapper">
+                <h1 class="header__title"><span class="span-accent">Specialty coffee</span> in the Triple Peaks Library</h1>
+                <span class="header__description">Welcome to our study zone! We've got the coffee to energize you<br> and the cozy vibes to help you get creative.</span>
                 <img src="images/inside_coffee_shop.png">
-            </main>
+            </section>
             <footer class="header__footer">
                 <div class="footer--left">
                     <p class="paragraph">Hours:</p>
@@ -51,7 +51,25 @@
         </header>
         <main class="content">
             <section class="recipes">
-
+                <h1 class="recipes__title">Recipes</h1>
+                <p class="recipes__paragraph">Check out some recipes we've collected for your home-brewing convenience:</p>
+                <div class="recipes__videos">
+                    <div class="video__wrapper">
+                        <iframe class="media" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=oj3xL-hERdr0KD5V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="media__text">
+                            <p>Aeropress recipe</p>
+                            <p>~5 min</p>
+                        </div>
+                    </div>
+                    <div class="video__wrapper">
+                        <iframe class="media" src="https://www.youtube.com/embed/st571DYYTR8?si=bu7YzRSv48FGGWtR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="media__text">
+                            <p>French press recipe</p>
+                            <p>~15 min</p>
+                        </div>
+                    </div>
+                
+                </div>
             </section>
             <section class="reservation"></section>
             <section class="menu"></section>
