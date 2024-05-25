@@ -148,7 +148,6 @@ a {
     align-items: center;
 
     margin-bottom: 215px;
-    outline: ;
 }
 .recipes__title {
     max-width: 580px;
@@ -189,7 +188,7 @@ a {
 .reservation {
     padding: 100px 0 120px;
     background-image: url(../images/background_reservation.svg);
-    background-image: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #d9e7ff;
@@ -197,10 +196,7 @@ a {
 .reservation__title {
     margin: 0 0 80px;
     text-align: center;
-    font-family: "Inter", Arial, sans-serif;
-    font-weight: 500;
-    font-style: 44px;
-    line-height: 52px;
+    font-family: Inter; font-style: normal; font-weight: 500; font-size: 44px; line-height: 52px;
 }
 .reservation__form {
     margin: 0 auto;
@@ -215,10 +211,7 @@ a {
     margin-bottom: 32px;
     display: block;
     padding-bottom: 30px;
-    font-family: "Inter", Arial, sans-serif;
-    font-weight: 500;
-    font-style: 16px;
-    line-height: 20px;
+    font-family: Inter; font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px;
 }
 
 .form__input {
@@ -252,11 +245,7 @@ a {
     color: #fff;
     padding: 0;
     margin-bottom: 32px;
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-style: 16px;
-    line-height: 20px;
+    font-family: Inter; font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px;
     border-radius: 4px;
     transition: opacity;
     opacity: 1;
