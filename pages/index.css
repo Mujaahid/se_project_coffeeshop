@@ -1,4 +1,14 @@
-* {
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
+@import url(../blocks/header.css);
+@import url(../blocks/recipes.css);
+@import url(../blocks/reservation.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/menu.css);
+@import url(../blocks/about.css);
+@import url(../blocks/footer.css);
+
+/* * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -10,10 +20,10 @@
     font-size: 16px;
     line-height: 20px;
     font-family: "Inter", sans-serif;
-}
+} */
 
 
-.header {
+/* .header {
     height: 100vh;
     min-height: 720px;
     max-height: 800px;
@@ -119,14 +129,14 @@ a {
     position: relative;
     z-index: 1;
     justify-content: space-between;
-}
+} */
 
 
 
 
 
 /* recipes */
-.recipes {
+/* .recipes {
     height: 100vh;
     min-height: 720px;
     max-height: 800px;
@@ -181,11 +191,11 @@ a {
     justify-content: space-between;
     padding-top: 24px;
     font-family: "Inter"; font-style: normal; font-weight: 500; font-size: 20px; line-height: 30px;
-}
+} */
 
 
 
-.reservation {
+/* .reservation {
     padding: 100px 0 120px;
     background-image: url(../images/background_reservation.svg);
     background-size: cover;
@@ -254,14 +264,12 @@ a {
     display: flex;
   justify-content: center;
   gap: 12px;
-}
+} */
 
 
 
-.menu {
+/* .menu {
     padding: 100px 0 100px;
-    /* font-style: normal;
-    font-weight: normal; */
     background-color: #fff;
     background-image: url(../images/background_menu.svg);
     background-position: center;
@@ -331,14 +339,14 @@ a {
 .card__list-divider {
     border-bottom: 1px solid black;
     flex-grow: 1;
-}
+} */
   
 
 
 
 
 
-
+/* 
 .about {
     background-color: #0a2850;
     display: flex;
@@ -403,9 +411,9 @@ a {
       transform: scale(1.4);
       opacity: 0;
     }
-}
+} */
   
-
+/* 
 .footer {
     padding: 60px 80px 108px 80px;
     background-color: #0a2850;
@@ -479,4 +487,4 @@ a {
     margin: 108px 0 60px;
     padding: 0;
   }
-  
+   */
