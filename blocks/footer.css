@@ -54,21 +54,21 @@
   .footer__social-icon {
     width: 16px;
     height: 16px;
-    margin-right: 10px;
   }
   
-  .footer__social-link {
+  .footer__social-media {
     display: flex;
     column-gap: 10px;
     color: white;
+    text-decoration: none;
   }
   
-  .footer__social-link:hover {
+  .footer__social-mediak:hover {
     color: #c1c1c1;
   }
   
   .footer__copyright {
     color: white;
-    padding: 0;
+    padding-top: 108px;
   }
   

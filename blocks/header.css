@@ -29,7 +29,6 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
 }
   
 .nav__logo {
@@ -62,7 +61,7 @@
     color: #2f80ed;
 }
 
-.span-accent {
+.header__span-accent {
     font-family: "Noto Serif"; 
     font-style: italic; 
     font-weight: normal; 

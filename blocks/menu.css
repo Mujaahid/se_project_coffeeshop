@@ -25,7 +25,7 @@
     line-height: 30px;
 }
   
-.menu__cards {
+.card {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
