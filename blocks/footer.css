@@ -23,7 +23,7 @@
     height: 39px;
   }
   
-  .social-media {
+  .footer__social-media {
     display: flex;
     flex-direction: column;
   }
@@ -56,14 +56,14 @@
     height: 16px;
   }
   
-  .footer__social-media {
+  .footer__social-media-link {
     display: flex;
     column-gap: 10px;
     color: white;
     text-decoration: none;
   }
   
-  .footer__social-mediak:hover {
+  .footer__social-media-link:hover {
     color: #c1c1c1;
   }
   
