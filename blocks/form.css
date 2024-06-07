@@ -47,7 +47,11 @@
     color: #fff;
     padding: 0;
     margin-bottom: 32px;
-    font-family: Inter; font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 20px;
     border-radius: 4px;
     transition: opacity;
     opacity: 1;
